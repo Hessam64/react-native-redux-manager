@@ -1,5 +1,5 @@
 import {EMAIL_CHANGED, PASSWORD_CHANGED, LOGIN_USER_SUCCESS, LOGIN_USER_FAIL, LOGIN_USER} from "../actions/types";
-const INITIAL_STATE = {email: "", password: "", loading: false};
+const INITIAL_STATE = {email: "test@test.com", password: "testing", loading: false};
 
 export default (state = INITIAL_STATE, action) => {
     switch (action.type) {
